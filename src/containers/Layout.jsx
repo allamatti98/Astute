@@ -31,7 +31,7 @@ class CustomLayout extends React.Component {
               <Link to="/submit">Submit Assignments</Link>
             </Menu.Item>
             <Menu.Item key="7" onClick={this.props.logout}>
-              <Link to="/">FAQ</Link>
+              <Link to="/faq">FAQ</Link>
             </Menu.Item>
             <Menu.Item key="8" onClick={this.props.logout}>
               <Link to="/">Contact Us</Link>
