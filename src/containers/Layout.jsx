@@ -34,6 +34,9 @@ class CustomLayout extends React.Component {
               <Link to="/faq">FAQ</Link>
             </Menu.Item>
             <Menu.Item key="8" onClick={this.props.logout}>
+              <Link to="/community">Community</Link>
+            </Menu.Item>
+            <Menu.Item key="18" onClick={this.props.logout}>
               <Link to="/">Contact Us</Link>
             </Menu.Item>
             {this.props.isAuthenticated ? (

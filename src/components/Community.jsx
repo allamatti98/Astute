@@ -7,7 +7,7 @@ const contentStyle = {
     textAlign: 'center',
     background: '#364d79',
 };
-const App = () => (
+const CommunityCar = () => (
     <Carousel autoplay>
         <div>
             <h3 style={contentStyle}>1</h3>
@@ -23,4 +23,4 @@ const App = () => (
         </div>
     </Carousel>
 );
-export default App;
+export default CommunityCar;
