@@ -22,40 +22,16 @@ class CustomLayout extends React.Component {
               <Link to="/">Home</Link>
             </Menu.Item>
             <Menu.Item key="4" onClick={this.props.logout}>
-              <Link to="/">Courses</Link>
+              <Link to="/calendar">Academic Calendar</Link>
             </Menu.Item>
             <Menu.Item key="5" onClick={this.props.logout}>
-              <Link to="/">Blog</Link>
+              <Link to="/contests">Contests</Link>
             </Menu.Item>
             <Menu.Item key="6" onClick={this.props.logout}>
               <Link to="/">FAQ</Link>
             </Menu.Item>
             <Menu.Item key="7" onClick={this.props.logout}>
               <Link to="/">Contact Us</Link>
-            </Menu.Item>
-            <Menu.Item key="8" onClick={this.props.logout}>
-              <Link to="/">Contribute</Link>
-            </Menu.Item>
-            <Menu.Item key="9" onClick={this.props.logout}>
-              <Link to="/">Gallery</Link>
-            </Menu.Item>
-            <Menu.Item key="10" onClick={this.props.logout}>
-              <Link to="/">Community</Link>
-            </Menu.Item>
-            <Menu.Item key="11" onClick={this.props.logout}>
-              <Link to="/">Teachers</Link>
-            </Menu.Item>
-            <Menu.Item key="12" onClick={this.props.logout}>
-              <Link to="/">Contests</Link>
-            </Menu.Item>
-            <Menu.Item key="13" onClick={this.props.logout}>
-              <Link to="/">Careers</Link>
-            </Menu.Item>
-            <Menu.Item key="14" onClick={this.props.logout}>
-              <Link to="/">Policies</Link>
-            </Menu.Item>
-            <Menu.Item key="15" onClick={this.props.logout}>
-              <Link to="/">Help</Link>
             </Menu.Item>
             {this.props.isAuthenticated ? (
 
