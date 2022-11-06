@@ -13,6 +13,7 @@ import Contests from "./containers/Contests";
 import Submit from "./containers/Submit";
 import FAQ from "./containers/FAQ";
 import Community from "./containers/Community";
+import Gallery from "./containers/Gallery";
 
 const BaseRouter = () => (
   <Hoc>
@@ -27,6 +28,7 @@ const BaseRouter = () => (
     <Route path="/submit" component={Submit} />
     <Route path="/faq" component={FAQ} />
     <Route path="/community" component={Community} />
+    <Route path="/gallery" component={Gallery} />
   </Hoc>
 );
 

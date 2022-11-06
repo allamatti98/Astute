@@ -1,10 +1,16 @@
 import React from "react";
-import CommunityCar from "../components/Community";
+import CommunityCar from "../components/CommunityCarousel";
+import CommunityPost from "../components/CommunityPost";
+import CommunityReplies from "../components/CommunityReplies";
 
 class Community extends React.PureComponent {
     render() {
         return (
-            <CommunityCar />
+            <div>
+                <CommunityCar />
+                <CommunityPost />
+                <CommunityReplies />
+            </div>
         )
     }
 }
