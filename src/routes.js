@@ -10,6 +10,7 @@ import AssignmentDetail from "./containers/AssignmentDetail";
 import AssignmentCreate from "./containers/AssignmentCreate";
 import Calendar from "./containers/Calendar";
 import Contests from "./containers/Contests";
+import Submit from "./containers/Submit";
 
 const BaseRouter = () => (
   <Hoc>
@@ -21,6 +22,7 @@ const BaseRouter = () => (
     <Route exact path="/profile/:id" component={Profile} />
     <Route path="/calendar" component={Calendar} />
     <Route path="/contests" component={Contests} />
+    <Route path="/submit" component={Submit} />
   </Hoc>
 );
 
