@@ -1,7 +1,7 @@
 import { Card } from 'antd';
 import React from 'react';
 const { Meta } = Card;
-const Card = () => (
+const Conto = () => (
     <Card
         hoverable
         style={{
@@ -9,7 +9,7 @@ const Card = () => (
         }}
         cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
     >
-        <Meta title="Europe Street beat" description="www.instagram.com" />
+        <Meta title="Math Contest" description="20th November" />
     </Card>
 );
-export default Card;
+export default Conto;
