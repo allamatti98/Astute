@@ -15,7 +15,7 @@ class CustomLayout extends React.Component {
           <Menu
             theme="dark"
             mode="horizontal"
-            defaultSelectedKeys={["2"]}
+            defaultSelectedKeys={["3"]}
             style={{ lineHeight: "64px" }}
           >
             <Menu.Item key="3" onClick={this.props.logout}>
