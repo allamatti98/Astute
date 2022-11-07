@@ -84,7 +84,7 @@ const getListData = (value) => {
                 },
             ];
             break;
-        case 23:
+        case 27:
             listData = [
                 {
                     type: 'success',
