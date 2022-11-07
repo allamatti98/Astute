@@ -1,10 +1,10 @@
-import { DislikeFilled, DislikeOutlined, LikeFilled, LikeOutlined } from '@ant-design/icons';
+// import { DislikeFilled, DislikeOutlined, LikeFilled, LikeOutlined } from '@ant-design/icons';
 import { Avatar, Comment, Tooltip } from 'antd';
-import React, { createElement, useState } from 'react';
+import React, { useState } from 'react';
 const CommunityPost = () => {
     const [likes, setLikes] = useState(0);
     const [dislikes, setDislikes] = useState(0);
-    const [action, setAction] = useState(null);
+    const [setAction] = useState(null);
     const like = () => {
         setLikes(1);
         setDislikes(0);
